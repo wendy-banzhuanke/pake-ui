@@ -14,12 +14,12 @@ module.exports = {
     sidebar: [
       '',
       {
-        title: '美丽的css',
+        title: '组件',
         path: '/tech/',
         collapsable: false, //是否展开
         sidebarDepth: 0,
         children: [
-          '/tech/css01',
+          '/tech/PMonaco',
           '/tech/css02',
         ],
       }

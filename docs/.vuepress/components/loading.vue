@@ -6,10 +6,14 @@
 export default {
   name: 'p-loading',
 
-  methods: {
-    handleClick () {
+  setup () {
+    const handleClick = () => {
       console.log("this is a button")
-    },
+    }
+
+    return {
+      handleClick,
+    }
   },
 }
 </script>

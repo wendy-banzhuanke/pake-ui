@@ -1,9 +1,6 @@
 ---
 navbar: true
-title: tech-one
+title: 组件
 ---
 
-热爱生活
-
-### 标题三级
-<loading/>
+平时做项目中的封装的公共组件的整理
