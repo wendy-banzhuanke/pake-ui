@@ -17,7 +17,7 @@
   </div>
 </template>
 
-<script>
+<script lang="javascript">
 import { reactive, toRefs } from '@vue/composition-api'
 
 export default {
@@ -66,3 +66,31 @@ export default {
   // }
 }
 </script>
+
+<style lang="scss">
+  .showcode {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+
+    &-example {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    &-segment {
+      
+    }
+
+    &-toggle-button {
+      text-align: center;
+      font-size: 14px;
+      color: #525252;
+      margin-top: 10px;
+
+      &:hover {
+        color: #37c7eb;
+      }
+    }
+  }
+</style>

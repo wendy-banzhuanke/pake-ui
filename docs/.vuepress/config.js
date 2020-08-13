@@ -19,8 +19,9 @@ module.exports = {
         collapsable: false, //是否展开
         sidebarDepth: 0,
         children: [
+          '/tech/PTableline',
           '/tech/PMonaco',
-          '/tech/css02',
+          '/tech/PHighlight'
         ],
       }
     ],

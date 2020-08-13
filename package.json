@@ -15,5 +15,11 @@
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.9",
     "vue-monaco": "^1.2.1"
+  },
+  "devDependencies": {
+    "highlight.js": "^10.1.2",
+    "vue-highlight.js": "^3.1.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
   }
 }
